@@ -3,12 +3,14 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "assets_launcher": "github:brown-toy-box/assets_launcher#v1.0.1"
     },
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "launcher.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -21,5 +23,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
