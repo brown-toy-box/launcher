@@ -181,6 +181,7 @@ namespace launcher {
 
     //% block="set marker color for player $player to $color"
     //% player.defl=1
+    //% color.defl=10
     //% color.shadow=colorindexpicker
     export function setMarkerColor(player: number, color: number): void {
         if (player < 1 || player > 4) {
