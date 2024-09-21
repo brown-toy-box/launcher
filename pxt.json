@@ -4,7 +4,7 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "assets_launcher": "github:brown-toy-box/assets_launcher#v2.0.0"
+        "assets_launcher": "github:brown-toy-box/assets_launcher#v2.0.1"
     },
     "files": [
         "README.md",
