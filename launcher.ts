@@ -47,7 +47,9 @@ namespace launcher {
     let targetSpeedup: number = 10
     let markerColors: number[] = [10, 10, 10, 10, 10]
 
-    //% block
+    //% block="add round with target vx $vx vy $vy"
+    //% vx.defl=50
+    //% vy=defl=50
     export function addRound(vx: number, vy: number): void {
         let round: number[] = [vx, vy,]
         targetVelocities.push(round)
@@ -58,12 +60,12 @@ namespace launcher {
         targets.push(sprite)
     }
 
-    //% block
+    //% block="get current round"
     export function currentRound(): number {
         return currRound + 1
     }
 
-    //% block
+    //% block="decrease angle for player $player"
     //% player.defl=1
     export function decreaseAngle(player: number): void {
         if (player < 0 || player > 4) {
@@ -75,7 +77,7 @@ namespace launcher {
         }
     }
 
-    //% block
+    //% block="launch football for player $player"
     //% player.defl=1
     export function launchFootball(player: number): void {
         if (player < 0 || player > 4) {
@@ -129,7 +131,7 @@ namespace launcher {
         fb.setVelocity(vx, vy)
     }
 
-    //% block
+    //% block="increase angle for player $player"
     //% player.defl=1
     export function increaseAngle(player: number): void {
         if (player < 0 || player > 4) {
@@ -141,7 +143,7 @@ namespace launcher {
         }
     }
 
-    //% block
+    //% block="increase speed for target $target"
     export function increaseTargetSpeed(target: Sprite): void {
         if (target.vx < 0) {
             target.vx -= targetSpeedup
@@ -177,7 +179,7 @@ namespace launcher {
         fbSpeed = speed
     }
 
-    //% block
+    //% block="set marker color for player $player to $color"
     //% player.defl=1
     //% color.shadow=colorindexpicker
     export function setMarkerColor(player: number, color: number): void {
@@ -202,7 +204,7 @@ namespace launcher {
         updateShadow(player)
     }
 
-    //% block
+    //% block="set length of round to $seconds seconds"
     export function setRoundLength(seconds: number): void {
         // Zero disables timer.
         if (seconds >= 0) {
