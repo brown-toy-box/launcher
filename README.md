@@ -1,29 +1,9 @@
+# README
 
-> Open this page at [https://brown-toy-box.github.io/launcher/](https://brown-toy-box.github.io/launcher/)
+View the skillmap at
+<https://arcade.makecode.com/--skillmap#github:brown-toy-box/launcher/skillmap>
 
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/brown-toy-box/launcher** and import
-
-## Edit this project ![Build status badge](https://github.com/brown-toy-box/launcher/workflows/MakeCode/badge.svg)
-
-To edit this repository in MakeCode.
-
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/brown-toy-box/launcher** and click import
-
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/brown-toy-box/launcher/raw/master/.github/makecode/blocks.png)
+**Note**: If testing, then open the links in Private or Incognito windows.
 
 #### Metadata (used for search, rendering)
 
