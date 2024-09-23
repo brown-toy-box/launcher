@@ -78,7 +78,7 @@
 ### part-7
 
 * name: Advanced Part 1
-* description: Add clouds that affect sunlight.
+* description: Get ready for multiplayer!
 * type: tutorial
 * next: part-8
 * url: https://github.com/brown-toy-box/launcher/tutorial-part-7
@@ -86,7 +86,7 @@
 ### part-8
 
 * name: Advanced Part 2
-* description: Swap the shadow and get ready to build large solar panels.
+* description: Add Player 2 to the game.
 * type: tutorial
 * next: part-9
 * url: https://github.com/brown-toy-box/launcher/tutorial-part-8
@@ -94,7 +94,7 @@
 ### part-9
 
 * name: Advanced Part 3
-* description: Build large solar panels and play with sound effects.
+* description: Add the remaining players to the game.
 * type: tutorial
 * next: advanced-complete
 * url: https://github.com/brown-toy-box/launcher/tutorial-part-9
