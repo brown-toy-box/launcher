@@ -55,7 +55,7 @@
 ### part-5
 
 * name: Intermediate Part 1
-* description: Get ready for multiple days!
+* description: Add strategy and difficulty to the game.
 * type: tutorial
 * next: part-6
 * url: https://github.com/brown-toy-box/launcher/tutorial-part-5
@@ -63,29 +63,29 @@
 ### part-6
 
 * name: Intermediate Part 2
-* description: Set your game to run for three days.
-* type: tutorial
-* next: part-7
-* url: https://github.com/brown-toy-box/launcher/tutorial-part-6
-
-### part-7
-
-* name: Intermediate Part 3
-* description: Add clouds that affect sunlight.
+* description: Play multiple rounds in the game.
 * type: tutorial
 * next: intermediate-complete
-* url: https://github.com/brown-toy-box/launcher/tutorial-part-7
+* url: https://github.com/brown-toy-box/launcher/tutorial-part-6
 
 ### intermediate-complete
 
 * name: End of intermediate.
 * type: certificate
 * kind: completion
+* next: part-7
+
+### part-7
+
+* name: Advanced Part 1
+* description: Add clouds that affect sunlight.
+* type: tutorial
 * next: part-8
+* url: https://github.com/brown-toy-box/launcher/tutorial-part-7
 
 ### part-8
 
-* name: Advanced Part 1
+* name: Advanced Part 2
 * description: Swap the shadow and get ready to build large solar panels.
 * type: tutorial
 * next: part-9
@@ -93,7 +93,7 @@
 
 ### part-9
 
-* name: Advanced Part 2
+* name: Advanced Part 3
 * description: Build large solar panels and play with sound effects.
 * type: tutorial
 * next: advanced-complete
